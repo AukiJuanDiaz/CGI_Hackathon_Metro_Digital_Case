@@ -22,14 +22,15 @@ After clicking the "Load Data" button, the evaluation results are displayed in r
 ![FrontEndLoaded](docs/Metro_Frontend_selected.png)
 
 ## Backend
-# In the folder BackendCode are the folling scripts that result in the final evaluation data.
-# IonosAccess.py : Class which allows to Access to the Ionos Api and to send the request. It allows manage the choice of the IA model
+In the folder BackendCode are the folling scripts that result in the final evaluation data.
 
-# RAG.py : Class wich allows to create different version of our AIAgent with the combinaison of a Ionoss AI model and the provided FAQ data from Metro thanks to a RAG
+####IonosAccess.py : Class which allows to Access to the Ionos Api and to send the request. It allows manage the choice of the IA model
 
-# MetroJudge.py : Class wich create the model which evaluate the answers given by the AIAgent. We use to achieve it the Ionos Api
+####RAG.py : Class wich allows to create different version of our AIAgent with the combinaison of a Ionoss AI model and the provided FAQ data from Metro thanks to a RAG
 
-#generate_variations : Script to generate variations of the FAQ questions, thanks to a AI model, to test our different AIAgents.
+MetroJudge.py : Class wich create the model which evaluate the answers given by the AIAgent. We use to achieve it the Ionos Api
+
+####generate_variations : Script to generate variations of the FAQ questions, thanks to a AI model, to test our different AIAgents.
 
 ## Data
 
