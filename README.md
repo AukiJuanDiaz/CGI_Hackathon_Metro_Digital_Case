@@ -21,3 +21,18 @@ After clicking the "Load Data" button, the evaluation results are displayed in r
 
 ![FrontEndLoaded](docs/Metro_Frontend_selected.png)
 
+## Backend
+# IonosAccess.py : Class which allows to Access to the Ionos Api and to send the request. It allows manage the choice of the IA model
+
+# RAG.py : Class wich allows to create different version of our AIAgent with the combinaison of a Ionoss AI model and the provided FAQ data from Metro thanks to a RAG
+
+# MetroJudge.py : Class wich create the model which evaluate the answers given by the AIAgent. We use to achieve it the Ionos Api
+
+#generate_variations : Script to generate variations of the FAQ questions, thanks to a AI model, to test our different AIAgents.
+
+## Data
+
+The FAQ from Metro with the golden answers to the question was provided
+test_fragen.csv : the variations of the questions in the FAQ provided wich are used to test our AIAgents.
+critical_faqs_metro_german.csv : a list of "tricky" question wich we established to test the AIAgents.
+
